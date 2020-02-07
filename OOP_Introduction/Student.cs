@@ -5,6 +5,7 @@ namespace OOP_Introduction
   class Student : Person
   {
     public string studentNumber;
+    public string lastName;
     public Person Advisor;
 
     /// <summary>

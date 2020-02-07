@@ -20,7 +20,7 @@ namespace OOP_Introduction
     /// <returns>Person's full name</returns>
     string getName()
     {
-      return firstName + " " + lastName;
+      return salutationMr + " "+ firstName + " " + lastName;
     }
 
     /// <summary>
@@ -38,7 +38,7 @@ namespace OOP_Introduction
     /// <param name="lname">last name of the person</param>
     public Person(string lname)
     {
-      lastName = lname;
+      this.lastName = lname;
     }
   }
 }

@@ -7,11 +7,11 @@ namespace OOP_Introduction
     static void Main(string[] args)
     {
       // initial access attempt
-      Person Student = new Person
+      /*Person Student = new Person
       {
         firstName = "John",
         lastName = "Doe"
-      };
+      };*/
 
       // after fixing access permissions
       //Debug.WriteLine(Student.getName());
@@ -27,8 +27,8 @@ namespace OOP_Introduction
 
       // passing by reference
       Person testVar2 = new Person("Doe");
-      Person result2 = ModifyObjectArgument(testVar2);
-      Debug.WriteLine(testVar2.lastName + " " + result2.lastName);
+      //Person result2 = ModifyObjectArgument(testVar2);
+      //Debug.WriteLine(testVar2.lastName + " " + result2.lastName);
 
       // using a child class
       Student Student1 = new Student();
@@ -44,10 +44,10 @@ namespace OOP_Introduction
       return x;
     }
 
-    static Person ModifyObjectArgument(Person x)
+    /*static Person ModifyObjectArgument(Person x)
     {
       x.lastName = "Dane";
       return x;
-    }
+    }*/
   }
 }
